@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Irakli Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="into py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">
+                Irakli's Quiz
+            </h2>
+        </div>
+    </div>
+
+<div class="result py-4 d-none bg-light text-center">
+    <div class="container lead">
+        <p>შენ  <span class="text-primary display-4 p-3">% </span>- ით, იცნობ ირაკლის!!!</p>
+    </div>
+</div>
+
+
+
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">
+                რამდენად კარგად იცნობ ირაკლის?!
+            </h2>
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        1. რომელ წელს და რიცხვში დაიბადა ირაკლი?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A" >
+                        <label class="form-check-label">1990 წლის 16 აგვისტო</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B" >
+                        <label class="form-check-label">1996 წლის 14 იანვარი</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="C" >
+                        <label class="form-check-label">1994 წლის 16 იანვარი</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="D" >
+                        <label class="form-check-label">1995 წლის 15 მაისი</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        2. რომელია ირაკლის საყვარელი ქვეყანა, სადაც ხანგრძლივად იცხოვრებდა?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A" >
+                        <label class="form-check-label">საფრანგეთი</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B" >
+                        <label class="form-check-label">თურქეთი</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="C" >
+                        <label class="form-check-label">ავსტრალია</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="D" >
+                        <label class="form-check-label">ფინეთი</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        3. რამდენად იცი ირაკლის გამორჩეული ჰობი?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A" >
+                        <label class="form-check-label">ნადირობა</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B" >
+                        <label class="form-check-label">წრეშიბურთის თამაში</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="C" >
+                        <label class="form-check-label">კომპიუტერული თამაშები</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="D" >
+                        <label class="form-check-label">თევზაობა</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">
+                        4.რომელია ირაკლის საყვარელი ფერი?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A" >
+                        <label class="form-check-label">ყვითელი</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B" >
+                        <label class="form-check-label">მწვანე</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="C" >
+                        <label class="form-check-label">წითელი</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="D" >
+                        <label class="form-check-label">ლურჯი</label>
+                    </div>
+                    <p class="lead font-weight-normal">
+                        5. ირაკლის საყვარელი სპორტის სახეობა?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="A" >
+                        <label class="form-check-label">ჩოგბურთი</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="B" >
+                        <label class="form-check-label">კალათბურთი</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="C" >
+                        <label class="form-check-label">ფეხბურთი</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="D" >
+                        <label class="form-check-label">რაგბი</label>
+                    </div>
+                    <p class="lead font-weight-normal">
+                        6.რომელია ირაკლის საყვარელი ვებ-საიტი?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="A">
+                        <label class="form-check-label">Faceboook.com</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="B" >
+                        <label class="form-check-label">Twitter.com</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="C" >
+                        <label class="form-check-label">instagram.com</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="D" >
+                        <label class="form-check-label">Youtube.com</label>
+                    </div>
+                    <p class="lead font-weight-normal">
+                        7.ჩამოთვლილთაგან რომელია ირაკლის საყვარელი მუსიკოსი?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="A" >
+                        <label class="form-check-label">Rammstein</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="B" >
+                        <label class="form-check-label">Travis Scott</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="C" >
+                        <label class="form-check-label">Metallica</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="D" >
+                        <label class="form-check-label">BlackPink</label>
+                    </div>
+                    <p class="lead font-weight-normal">
+                        8.ბოლო დროს ნანახი ფილმებიდან რომელი მოეწონა ყველაზე მეტად ირაკლის??
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="A" >
+                        <label class="form-check-label">THE POWER OF THE DOG</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="B" >
+                        <label class="form-check-label">DON'T LOOK UP</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="C" >
+                        <label class="form-check-label">VENOM: LET THERE BE CARNAGE</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="D" >
+                        <label class="form-check-label">THE AGE OF ADALINE</label>
+                    </div>
+                    <p class="lead font-weight-normal">
+                        9.ირაკლის საყვარელი ტანსაცმლის ბრენდი??
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="A" >
+                        <label class="form-check-label">GUCCI</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="B" >
+                        <label class="form-check-label">THE NORTH FACE</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="C" >
+                        <label class="form-check-label">NIKE</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="D" >
+                        <label class="form-check-label">VERSACE</label>
+                    </div>
+                    <p class="lead font-weight-normal">
+                        10.ირაკლის საყვარელი სპორტული კლუბი??
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="10" value="A" >
+                        <label class="form-check-label">მადრიდის რეალი</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="10" value="B" >
+                        <label class="form-check-label">მანჩესტერ იუნაიტედი</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q10" value="C" >
+                        <label class="form-check-label">ბარსელონა</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q10" value="D" >
+                        <label class="form-check-label">პსჟ</label>
+                    </div>
+                    
+                </div>
+                <div class="text center">
+                    <input type="submit" class="btn btn-light">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="button" data-action="like" data-size="small" data-share="true" style="margin-top: 20px;"></div>
+
+    <script src="js/main.js"></script>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="WsJ2T9uC"></script>
+</body>
+</html>
